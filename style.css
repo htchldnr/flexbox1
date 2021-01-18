@@ -1,0 +1,149 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  background-color: white;
+}
+body {
+  font-family: "Helvetica", sans-serif;
+  background: darkslategray;
+  color: seashell;
+  text-align: center;
+  font-size: 22px;
+  padding: 0;
+  margin: 0 auto;
+  width:1200px !important;
+}
+
+header {
+  position: fixed;
+  width: 1200px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  background-color: darkslategray;
+  top: 0px;
+  z-index: 5;
+}
+.logo {
+  text-align: left;
+  padding:5px;
+}
+.flex-container {
+  margin: auto;
+
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  display: block;
+  flex-grow: 1;
+  text-align: right;
+  margin-top: -50px;
+  margin-right: 20px;
+}
+
+nav span {
+  display: inline-block; 
+  padding-left: 20px;
+}
+
+nav span a {
+  color: seashell;
+}
+
+h2, h3, h4, h5 {
+  padding: 0px;
+  margin: 15px 0px;
+}
+
+.content-wrap {
+  padding-top: 69px;
+  opacity: 0.9;
+  margin: auto;
+  
+}
+
+/*/////////////// MAIN SECTION /////////////////*/
+
+#main {
+  height:700px;
+  width: 1200px;
+  margin-top: 0;
+}
+#backgroundimg {
+  background-image: url("./background-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 0;
+  height: 700px;
+  width:1200px;
+  margin-top: 0;
+}
+
+.overlay {
+  background-color: darkslategray;
+  margin-top: -400px !important;
+  z-index:2;
+  padding:10px 0px 10px 0px;
+}
+
+/*/////////////// FEATURED SECTION /////////////////*/
+
+#featured {
+  width: 1200px;
+  margin: 60px auto;
+}
+
+.item {
+  padding: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+}
+
+/*/////////////// LOCATIONS SECTION /////////////////*/
+
+#locations {
+  height: 500px;
+  background-image: linear-gradient( 115deg, rgba(229, 240, 224, 0.8), rgba(155, 245, 148, 0.7)), url("./background.png");
+  padding-top: 60px;
+  color:black;
+}
+
+.address {
+  opacity: 1.0;
+  margin: 5px 20px;
+  background-color: gray;
+  flex-basis: 250px;
+  height: 300px;
+  width:300px;
+  display: inline-block;
+  line-height: 300%;
+}
+
+/*/////////////// FOOTER SECTION /////////////////*/
+
+.contact {
+  width: 100%;
+  height: 200px;
+  padding-top: 60px;
+}
+
+footer .copyright {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
